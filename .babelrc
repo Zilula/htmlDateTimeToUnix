@@ -1,16 +1,14 @@
 {
-  "env": {
-    "development": {
-      "presets": ["env"],
-      "plugins": [
-        "add-module-exports"
-      ]
-    },
-    "production": {
-      "presets": ["env", "minify"],
-      "plugins": [
-        "add-module-exports"
-      ]
-    }
-  }
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "decoratorsBeforeExport": true
+      }
+    ],
+    "@babel/plugin-proposal-class-properties"
+  ]
 }

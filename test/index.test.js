@@ -1,7 +1,11 @@
-// import getUnixTime from '../src/index';
+import getUnixTime from '../src/index';
 
-describe('Awesome test.', () => {
-  it('should test default getUnixTime function', () => {
-    expect(true).toEqual(true);
+
+describe('tests default getUnixTime fn', () => {
+  const date = '2019-05-29';
+  const time = '12:03';
+  it('calls function', () => {
+    const result = getUnixTime(date, time);
+    expect(result).toEqual(1559156580000);
   });
 });
