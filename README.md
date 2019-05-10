@@ -1,4 +1,4 @@
-# NPM Module Boilerplate
+# Date and Time Converter
 
 **Convert html date and time inputs into unix time instantly** ✨
 
