@@ -31,3 +31,4 @@ npm i htmldatetimetounix
 # License
 
 MIT © Lance Merrill 
+MIT © Mackenzie Berliner-Glasser
